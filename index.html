@@ -3,41 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Web Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Multiple Audio Player</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Simple Web Page</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>This is a simple web page to demonstrate HTML and CSS.</p>
-        </section>
-        
-        <section>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Web Design</li>
-                <li>Graphic Design</li>
-                <li>Content Creation</li>
-            </ul>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 My Simple Web Page. All rights reserved.</p>
-    </footer>
+    <h1>Multiple Audio Player</h1>
+
+    <!-- List of audio filenames -->
+    <ul>
+        <li><a href="#audio1">Audio File 1</a></li>
+        <li><a href="#audio2">Audio File 2</a></li>
+        <!-- Add more audio file links as needed -->
+    </ul>
+
+    <!-- Replace 'username' with your GitHub username and adjust the filenames accordingly -->
+    <audio controls id="audio1">
+        <source src="audios/train_hindimale_00649.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio controls id="audio2">
+        <source src="audios/train_hindimale_00649.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Add more <audio> elements for additional audio files -->
 </body>
 </html>
